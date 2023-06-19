@@ -3,6 +3,8 @@ This program copies all the arguments it receives to the Windows clipboard.
 
 The whitespaces (`' ', '\t', '\n', '\r'`) at the beginning and end of the arguments are ignored.
 
+Latest release : https://github.com/paul2t/clipit/releases/latest
+
 # Add it to the context menu
 By default you can `shift`+`right click` on Windows to copy the path of a file.
 

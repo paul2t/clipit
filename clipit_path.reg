@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Allfilesystemobjects\shell\clipit]
+"MUIVerb"="Copy as path"
+"Icon"="imageres.dll,-5302"
+
+; Command to execute, by default: "%SystemDrive%\work\tools\bin\clipit.exe" %1
+; Edit it in regedit.
+[HKEY_CLASSES_ROOT\Allfilesystemobjects\shell\clipit\command]
+@=hex(2):22,00,25,00,53,00,79,00,73,00,74,00,65,00,6d,00,44,00,72,00,69,00,76,\
+  00,65,00,25,00,5c,00,77,00,6f,00,72,00,6b,00,5c,00,74,00,6f,00,6f,00,6c,00,\
+  73,00,5c,00,62,00,69,00,6e,00,5c,00,63,00,6c,00,69,00,70,00,69,00,74,00,2e,\
+  00,65,00,78,00,65,00,22,00,20,00,25,00,31,00,00,00
